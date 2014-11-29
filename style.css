@@ -1,4 +1,4 @@
-<style>
+
 #container
 {
 	width: 1000px;
@@ -8,13 +8,40 @@
 #logo
 {
 	background-color: grey;
-	color: blue;
 	text-align: center;
 	padding: 20px;
-	
+}
+#nav
+{
+	float: left;
+	background-color: brown;
+	width: 140px;
+	min-height: 620px;
+	padding: 10px
+}
+
+#content
+{
+	float: left;
+	padding: 20px;
+	width: 640px;
+}
+
+#ad
+{
+	float: left;
+	width: 140px;
+	min-height: 620px;
+	padding: 10px;
+	background-color: brown;
+}
+
+#footer
+{
+	clear: both;
+	background-color: grey;
+	padding: 20px;
+
 }
 
 
-
-
-</style>
