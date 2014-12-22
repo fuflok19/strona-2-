@@ -1,20 +1,27 @@
+body
+{
+	background-image: url("kamien.png");
+	margin: 0 auto;
+}
 
 #container
 {
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
+	box-shadow: 10px 10px 5px #C0C0C0;
 }
 #logo
 {
-	background-color: grey;
+	background-image: url("drewno.png");
 	text-align: center;
 	padding: 20px;
+	text-shadow: 5px 5px 5px #C0C0C0;
 }
 #nav
 {
 	float: left;
-	background-color: brown;
+	background-image: url("drewno.png");
 	width: 140px;
 	min-height: 620px;
 	padding: 10px
@@ -22,9 +29,11 @@
 
 #content
 {
+	background-image: url("kamien.png");
 	float: left;
-	padding: 20px;
-	width: 640px;
+	padding: 10px;
+	width: 660px;
+	min-height: 620px;
 }
 
 #ad
@@ -33,15 +42,40 @@
 	width: 140px;
 	min-height: 620px;
 	padding: 10px;
-	background-color: brown;
+	background-image: url("drewno.png");
 }
 
 #footer
 {
 	clear: both;
-	background-color: grey;
+	background-image: url("drewno.png");
 	padding: 20px;
-
+	text-align: center;
 }
-
-
+#h1
+{	
+	text-shadow: 5px 5px 5px grey;
+}
+.option
+{
+	height: 25px;
+	font-size: 17px;
+	padding: 5px;
+	border-bottom: 3px dotted #C0C0C0;
+}
+.option:hover
+{
+	background-color: #C0C0C0;
+	cursor: pointer;
+	opacity: 0.5;
+}
+img
+{
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+img:hover
+{
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+}
